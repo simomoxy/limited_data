@@ -10,7 +10,8 @@ To reproduce, run the scripts found in the ./scripts directory.
 
   specify the input arguments accordingly
 
-### 2. To Extract all models of the Pareto front run scripts/run_main_pareto.sh
+### 2. To Extract all models of the Pareto front run:
+   a. run scripts/run_main_pareto.sh
 
 ### 3. To reproduce the training runs, use:
    a. Ray models: scripts/run_main_pareto.sh
