@@ -1,5 +1,7 @@
 # limited data
 
+In this project, we extend the code provided by: https://github.com/tmehari/ssm_ecg.git
+
 To reproduce, run the scripts found in the ./scripts directory. 
 
 1. To reproduce the tuning results, use:
