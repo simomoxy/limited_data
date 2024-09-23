@@ -11,6 +11,6 @@ STUDY_NAME="optuna_${MODEL}_${OBJECTIVE}_${OPTIMIZATION}_${DSR}_${SOTA_CONFIG}_$
 NUM_STUDY_SAMPLES=1
 EPOCHS=1
 
-DATA_SET='/Users/simonjaxy/Documents/vub/WP1/ssm_ecg/data/ptb_xl_fs100'
+DATA_SET='./data/ptb_xl_fs100'
 
 python ./code/tune_optuna.py --dataset="${DATA_SET}" --data_seed=${DATA_SEED} --num_study_samples ${NUM_STUDY_SAMPLES} --study_name="${STUDY_NAME}" --objectives"=${OBJECTIVE}" --optimization="${OPTIMIZATION}" --num_gpus=${NUM_GPUS} --epochs ${EPOCHS}  --accelerator="${ACCELERATOR}" --device=${DEVICE} --down_sample_rate=${DSR} --study_path ./optuna/"${MODEL}" --logdir ./logs/optuna/"${MODEL}" --model "${MODEL}"
